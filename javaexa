@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nicolas Polo</title>
+</head>
+<body>
+	<h1>Nicolas Polo</h1>
+	<p>20 de Junio de 1998</p>
+	<p>Loja, Ecuador</p>
+	<p>Futbol & Diseño</p>
+	<h2>JavaScript in Body</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</body>
+</html>
